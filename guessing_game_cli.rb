@@ -25,5 +25,5 @@ end
 def run_guessing_game
   comp_num = generate_num
   user_num = prompt_user
-  evalueate_game(comp_num, user_num)
+  evaluate_game(comp_num, user_num)
 end
