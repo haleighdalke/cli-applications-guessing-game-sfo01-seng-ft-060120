@@ -7,9 +7,6 @@ end
 
 def prompt_user
   puts "Guess a number between 1 and 6"
-end
-
-def user_guess
   gets.chomp
 end
 
@@ -26,5 +23,7 @@ def evaluate_game(comp_num, user_num)
 end
 
 def run_guessing_game
-  
+  comp_num = generate_num
+  user_num = prompt_user
+  evalueate_game(comp_num, user_num)
 end
