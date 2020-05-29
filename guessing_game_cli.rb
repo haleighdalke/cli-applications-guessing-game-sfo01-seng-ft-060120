@@ -24,3 +24,7 @@ def evaluate_game(comp_num, user_num)
     puts "Something else is wrong"
   end
 end
+
+def run_guessing_game
+  
+end
